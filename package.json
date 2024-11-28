@@ -1,0 +1,35 @@
+{
+  "name": "mustarddd",
+  "version": "1.0.0",
+  "description": "Turn the tv off",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "author": "kaplanan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaplanan/mustarddd/issues"
+  },
+  "homepage": "https://github.com/kaplanan/mustarddd#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
